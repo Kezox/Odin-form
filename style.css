@@ -113,3 +113,13 @@ button:hover {
     height: 200px;
     top: 150px;
 }
+
+/* Odin icon */
+
+.odinimg {
+    width: auto;
+    height: 140px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
