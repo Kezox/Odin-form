@@ -45,3 +45,35 @@ a {
 .text .gray {
     opacity: 0.8;
 }
+
+/* For form  */
+
+.form {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 30px 30px 30px;
+    grid-gap: 40px;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+label {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 150px;
+    border: 1px solid #E5E7EB;
+    height: 20px;
+} 
+
+input:focus {
+    border: 1px solid rgb(57, 57, 255);
+}
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    border: 2px solid red;
+}
