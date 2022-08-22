@@ -123,3 +123,24 @@ button:hover {
     top: 30px;
     left: 80px;
 }
+
+/* For custom font */
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
+.odintext {
+    font-family: norse-bold, sans-serif;
+    font-size: 140px;
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+
+a.creatorlink {
+    color: white;
+    text-decoration: underline;
+}
