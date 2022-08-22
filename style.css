@@ -96,3 +96,20 @@ button:hover {
     cursor: pointer;
     background-color: #4a5e39;
 }
+
+/* For text at the bottom */
+
+.textbottom {
+    margin: 40px;
+}
+
+/* Semi-transparent background on image */
+
+.odin {
+    position: absolute;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 533px;
+    height: 200px;
+    top: 150px;
+}
