@@ -1,0 +1,19 @@
+img {
+    height: 800px;
+}
+
+.imagetext {
+    position:relative;
+}
+
+.phototext {
+    position: absolute;
+    right: 30%;
+    top: 95%;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
